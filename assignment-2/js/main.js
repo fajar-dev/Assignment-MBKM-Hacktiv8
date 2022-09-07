@@ -10,7 +10,7 @@ function submit() {
   let experience = document.getElementById("experience");
   let email = document.getElementById("email");
 
-  document.getElementById("data_nama").innerHTML = document.getElementById("nama").value
+  document.getElementById("data_nama").innerHTML = nama.value
   document.getElementById("data_role").innerHTML = role.value
   document.getElementById("data_availability").innerHTML = availability.value
   document.getElementById("data_age").innerHTML = age.value
