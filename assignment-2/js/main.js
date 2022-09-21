@@ -1,4 +1,6 @@
-read()
+document.addEventListener("DOMContentLoaded", function(event){
+  read()
+})
 
 function submit() {
 
