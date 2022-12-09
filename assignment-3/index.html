@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="d-flex mt-5">
+              <input type="text" class="form-control form-control-lg me-3" id="country" placeholder="Country...">
+              <button class="btn btn-primary btn-lg" id="submit">Get Data</button>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/sick.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Kasus Aktif</h1>
+                <span id="aktif">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/sad.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Kasus Baru</h1>
+                <span id="baru">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/happy.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Sembuh</h1>
+                <span id="sembuh">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/statistic.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Total Kasus</h1>
+                <span id="t_kasus">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/death.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Total Kematian</h1>
+                <span id="t_mati">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body p-5">
+                <img src="img/swab.png" class="img-fluid mb-4" width="100" alt="">
+                <h1>Total Tes</h1>
+                <span id="t_test">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
