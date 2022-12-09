@@ -24,6 +24,19 @@ function submit() {
    form.className += "d-none";
 
    read()
+<<<<<<< HEAD
+=======
+}
+
+function read() {
+  document.getElementById("data_nama").innerHTML = localStorage.getItem("nama");
+  document.getElementById("data_role").innerHTML = localStorage.getItem("role");
+  document.getElementById("data_availability").innerHTML = localStorage.getItem("availability");
+  document.getElementById("data_age").innerHTML = localStorage.getItem("age");
+  document.getElementById("data_lokasi").innerHTML = localStorage.getItem("lokasi");
+  document.getElementById("data_experience").innerHTML = localStorage.getItem("experience");
+  document.getElementById("data_email").innerHTML = localStorage.getItem("email");
+>>>>>>> 0cdf6b8f50de8380a74346a0461167ace8612445
 }
 
 function read() {
